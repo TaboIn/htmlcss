@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	background-color: yellow;
+	padding-left: 60px;
+	color: white;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.artist {
+	height: 100px;
+}
+
+.img {
+	background-image: url("./images/img.svg");
+	background-position: center;
+	background-size: cover;
+	height: 1080px;
+}
+
+.body {
+	margin-top: 60px;
+	padding: 30px;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.body_size {
+	width: 1280px;
+}
+
+.lending {
+	margin-bottom: 30px;
+}
+
+p {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-align: left;
+}
+
+.footer {
+	margin-top: 80px;
+	padding-right: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 40px;
+}
