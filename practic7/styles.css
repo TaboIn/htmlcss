@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header,
+.footer {
+	background-color: #ffe138;
+	color: black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+.furnitures {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.furniture {
+	border: 1px solid black;
+	margin-left: 15px;
+	margin-right: 15px;
+	max-width: 400px;
+}
+
+.img {
+	width: 100%;
+}
+
+.description {
+	margin: 30px;
+	font-size: 20px;
+}
+
+h4 {
+	padding-bottom: 20px;
+}
